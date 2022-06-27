@@ -13,10 +13,3 @@ def two_number_sum(array, targetSum):
         if (number2 in array) and (number2 != number):
             return [number, number2]
     return []
-
-if __name__ == '__main__':
-    array = [3, 5, -4, 8, 11, 1, -1, 6]
-    targetSum = 10
-
-    print(two_number_sum(array, targetSum))
-
